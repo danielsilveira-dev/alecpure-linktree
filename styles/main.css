@@ -1,0 +1,56 @@
+@import url('./_reset.css');
+
+body {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 60rem;
+  height: 60rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/background.svg);
+}
+.container h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 4.8rem;
+}
+.cranio {
+  width: 10rem;
+  margin: 2rem;
+}
+.bg-linktree {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.links-list li {
+  font-size: 3.6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 35.3rem;
+  height: 7rem;
+  background-image: url('../images/green-button-sprite.svg');
+}
+.links-list li + li {
+  margin-top: 2rem;
+}
+.links-list li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
